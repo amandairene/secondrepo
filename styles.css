@@ -1,0 +1,185 @@
+/* colors */
+
+/*
+#FDCD03 - BB Yellow (Yellow 1)
+#D42308 - Kill Bill Red (Red 1)
+#030004 - Black Mamba (Black 1)
+#BB7D4B - Bury Me Brown (Brown 1)
+#808184 - Grey All Day (Grey1 1)
+*/
+
+/* fonts */
+
+/*
+font-family: 'Pockota-Light', serif;
+font-family: 'Siegner-Bold', sans-serif;
+font-family: 'Siegner-Regular', sans-serif;
+*/
+
+/*	============================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Pockota-Light', serif;
+	line-height: 1.5;
+	background-color: #808184
+}
+
+/*	============================================== */
+
+
+h1 {
+	font-family: 'Pockota-Light', serif;
+	text-align: center;
+	font-size: 5.000rem;
+	text-shadow: 2px 2px #FDCD03 ;
+	 
+}
+
+h2 {
+	font-family: 'Pockota-Light', serif;
+	text-align: center;
+	font-size: 2.000rem;
+}
+
+h3 {
+	font-family: 'Siegner-Regular', sans-serif;
+	text-align: center;
+	font-size: 1.414rem;
+	line-height: 0.5;
+	text-shadow: 1px 1px #FDCD03;
+}
+
+p {
+	font-family: 'Siegner-Regular', sans-serif;
+	text-align: center;
+	font-size: 1.4rem;
+	line-height: 1.10;
+
+}
+
+p.lead-in {
+	font-family: 'Siegner-Regular', sans-serif;
+	font-size: 1.414rem;
+
+}
+
+/*	============================================== */
+
+.container {
+	width: 1500px;
+	max-width: 100%;
+	padding: 0 2rem;
+	margin: 0 auto;
+}
+
+header {
+	background: #FDCD03;
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0; 
+	z-index: 2;
+	
+}
+
+nav {}
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+
+	align-items: center;
+	justify-content: center;
+
+	list-style: none;
+	margin: 10;
+	padding: 0;
+}
+
+nav ul li {
+	border-left: 0px;
+}
+
+nav ul li:last-child {
+	border-right: 0px;
+}
+
+nav ul li a {
+	display: block;
+	padding: 1rem 2.0rem;
+	color: #030004;
+	text-decoration: none;
+	transition: background-color 300ms ease;
+	font-family: 'Siegner-Regular', sans-serif;
+	text-transform: lowercase;
+	
+}
+
+nav ul li a:hover {
+	background-color: #D42308;
+}
+
+/*	============================================== */
+
+.swatch-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 -.5rem;
+	width: 100%;
+}
+
+.swatch-item {
+	width: calc(20% - 1rem);
+	padding: .5rem;
+	margin: .5rem;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+.swatch-sample {
+	height: 100px;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+.swatch-hex {
+	padding: .5rem 0 0;
+	text-align: center;
+}
+
+.swatch-sample--one {
+	background-color: #FDCD03
+
+}
+
+.swatch-sample--two {
+	background-color: #D42308	
+	
+}	
+
+.swatch-sample--three {
+	background-color: #030004	
+
+}
+
+.swatch-sample--four {
+	background-color: #BB7D4B
+
+}
+
+.swatch-sample--five {
+	background-color: #808184
+
+}
+.avatar {
+	display: block;
+	width: 1300px;
+	max-width: 100%;
+	border-radius: 0%;
+	margin: 0 auto;
+}
